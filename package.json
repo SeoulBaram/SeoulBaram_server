@@ -18,6 +18,7 @@
     "joi": "^13.5.2",
     "jsonwebtoken": "^8.3.0",
     "morgan": "~1.9.0",
-    "promise-mysql": "^3.3.1"
+    "promise-mysql": "^3.3.1",
+    "request": "^2.87.0"
   }
 }
