@@ -17,8 +17,10 @@
     "http-errors": "~1.6.2",
     "joi": "^13.5.2",
     "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
     "morgan": "~1.9.0",
     "promise-mysql": "^3.3.1",
-    "request": "^2.87.0"
+    "request": "^2.87.0",
+    "xml2js": "^0.4.19"
   }
 }
