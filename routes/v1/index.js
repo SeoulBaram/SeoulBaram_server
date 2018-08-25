@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const weatherRouter = require('./v1/weather/index');
-const cultureRouter = require('./v1/culture/index');
+const weatherRouter = require('./weather/index');
+const cultureRouter = require('./culture/index');
 
 router.use('/weather', weatherRouter);
 router.use('/culture', cultureRouter);

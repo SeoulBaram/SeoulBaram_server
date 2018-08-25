@@ -16,7 +16,7 @@ app.use((req, res, next) => {
     res.json({
         status: true,
         message: "success",
-        result,
+        data: result,
     })
   };
   next();
