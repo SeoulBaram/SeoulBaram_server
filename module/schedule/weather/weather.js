@@ -16,7 +16,7 @@ const request = require('request');
 const xml2js = require('xml2js');
 const moment = require('moment');
 
-const apiKeyGonggong = require('../../../config/secretKey').apiKeyGonggong;
+const apiKeyGonggong = require('../../../config/secretKey').apiKeyGonggong_JUNGKI;
 const db = require('../../db');
 
 //xml parser
@@ -30,7 +30,7 @@ let parser = new xml2js.Parser();
 let tmFc = moment().format("YYYYMMDD") + "0600";
 
 //Temp - for developing
-tmFc = "201808210600";
+tmFc = "201808240600";
 
 //미래 하늘 상태 데이터 얻기
 let option = {
